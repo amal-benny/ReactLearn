@@ -13,7 +13,10 @@ if (userAge >= 18) {
     console.log(`${userName}, you are not eligible to vote.`);
 }
 
-//Given two numbers a and b, write a function addNumbers(a, b) that returns the sum of the two numbers.
+
+
+
+//Write a JavaScript program to calculate and print the factorial of a given number using a for loop.
 function calc(num) {
     let factorial = 1;
     for (let i = 1; i <= num; i++) {
@@ -21,9 +24,6 @@ function calc(num) {
     }
     return factorial;
 }
-calc(5);
 
-
-//Write a JavaScript program to calculate and print the factorial of a given number using a for loop.
 let number = 5; 
-console.log(`The factorial of ${number} is: ${calculateFactorial(number)}`);
+console.log(`The factorial of ${number} is: ${calc(number)}`);
